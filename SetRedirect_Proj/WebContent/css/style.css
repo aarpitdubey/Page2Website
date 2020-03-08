@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-image: url(../img/ee.jpg);
+	min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.btn {
+  background-color: #ad2f3c;
+  color: white;
+  padding: 4 px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color: #4CAF50;
+}
